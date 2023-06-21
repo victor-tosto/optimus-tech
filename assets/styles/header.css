@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    padding: 2.65rem 3.2rem;
+    margin: 0 auto;
+}
+
+.header__logo {
+    margin-right: auto;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 3.2rem;
+}
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+.nav__menu--user {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu__item--user:last-child {
+    margin-left: 3rem;
+}
+
+.menu__link {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--gray-500);
+    text-decoration: none;
+}
+
+.menu__link.menu__link--user {
+    color: var(--white);
+    background-color: var(--brown-red);
+    padding: 1rem 1.8rem;
+    border-radius: .8rem;
+}
