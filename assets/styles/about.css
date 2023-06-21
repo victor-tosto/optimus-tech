@@ -1,0 +1,36 @@
+/* Sobre */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 9.6rem;
+}
+
+/* Sobre - Conteúdo */
+
+.about__us {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--brown-red);
+}
+
+.about__title {
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: var(--gray-900);
+    letter-spacing: -0.02em;
+    margin: 2.4rem 0;
+}
+
+.about__text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--gray-500);
+    max-width: 790px;
+}

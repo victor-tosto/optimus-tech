@@ -1,3 +1,5 @@
+/* Cabeçalho */
+
 .header {
     display: flex;
     align-items: center;
@@ -16,6 +18,8 @@
     margin-right: auto;
 }
 
+/* Navbar */
+
 .nav__menu {
     display: flex;
 }
@@ -28,7 +32,9 @@
     margin: 0;
 }
 
-.nav__menu--user {
+/* Área do usuário */
+
+.header__menu--user {
     display: flex;
     margin-left: auto;
 }
