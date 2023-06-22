@@ -6,6 +6,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    gap: 2.4rem;
     padding: 9.6rem;
 }
 
@@ -24,7 +25,6 @@
     line-height: 6rem;
     color: var(--gray-900);
     letter-spacing: -0.02em;
-    margin: 2.4rem 0;
 }
 
 .about__text {
