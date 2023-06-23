@@ -35,6 +35,7 @@
 - [X] Dia 1: Criar o cabeçalho do site
 - [X] Dia 2: Criar a seção "sobre" do site
 - [X] Dia 3: Criar a seção "métricas" do site
+- [x] Dia 4: Criar metade da seção "vagas" do site
 
 
 ## 👨‍💻 Autor

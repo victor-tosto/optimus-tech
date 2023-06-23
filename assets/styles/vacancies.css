@@ -1,0 +1,55 @@
+/* Vagas */
+
+.vacancies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9.6rem 8rem;
+}
+
+/* Vagas - Conteúdo */
+
+.vacancies__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3.2rem;
+    gap: 6.4rem;
+    margin-bottom: 6.4rem;
+}
+
+.vacancies__talents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.talents__description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--brown-red);
+    background-color: var(--beige);
+    border-radius: 16px;
+    padding: 0.4rem 1.2rem;
+}
+
+.talents__title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -0.072rem;
+    columns: var(--gray-900);
+}
+
+.talents__text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--gray-500);
+}
+
+.vacancies__image {
+    width: 100%;
+}
