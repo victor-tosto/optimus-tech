@@ -17,7 +17,7 @@
     margin-bottom: 6.4rem;
 }
 
-.vacancies__talents {
+.container__talents {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,4 +52,64 @@
 
 .vacancies__image {
     width: 100%;
+}
+
+.vacancies__container--open {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3.2rem;
+    gap: 6.4rem;
+    width: 100%;
+}
+
+.container__open-vacancie {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.vacancie__title {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--gray-900);
+    margin-bottom: 3.2rem;
+}
+
+.vacancie__jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-bottom: 6.4rem;
+}
+
+.vacancie__jobs:last-child {
+    margin: 0;
+}
+
+.jobs__info {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 2.4rem 2.4rem 2.8rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 16px;
+}
+
+.info__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--gray-900);
+}
+
+.info__description {
+    display: flex;
+    gap: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: var(--gray-500);
 }
