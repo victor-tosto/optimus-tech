@@ -5,6 +5,7 @@
 @import url('./about.css');
 @import url('./metrics.css');
 @import url('./vacancies.css');
+@import url('./depositions.css');
 
 :root {
 
@@ -13,7 +14,8 @@
     --gray-200: #EAECF0;
     --gray-500: #667085;
     --gray-900: #101828;
-    --beige: rgba(142, 36, 36, 0.05);   
+    --beige: rgba(142, 36, 36, 0.05);
+    --beige-500: rgba(195, 25, 25, 0.03);   
 
     --primary-font: 'Inter', sans-serif;
 

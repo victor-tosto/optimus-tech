@@ -37,6 +37,7 @@
 - [X] Dia 3: Criar a seção "métricas" do site
 - [x] Dia 4: Criar metade da seção "vagas" do site
 - [X] Dia 5: Criar o restante da seção "vagas" do site
+- [X] Dia 6: Criar a seção "depoimentos" do site
 
 
 ## 👨‍💻 Autor
