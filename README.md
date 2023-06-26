@@ -38,7 +38,7 @@
 - [x] Dia 4: Criar metade da seção "vagas" do site
 - [X] Dia 5: Criar o restante da seção "vagas" do site
 - [X] Dia 6: Criar a seção "depoimentos" do site
-
+- [X] Dia 7: Criar o rodapé do site
 
 ## 👨‍💻 Autor
 
