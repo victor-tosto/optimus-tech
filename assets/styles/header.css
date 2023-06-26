@@ -56,3 +56,108 @@
     padding: 1rem 1.8rem;
     border-radius: 8px;
 }
+
+/* Botão hamburger */
+
+.header__btn-hamburger {
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: var(--gray-500);
+    outline: 0;
+
+    display: none;
+}
+
+.btn-hamburger__bar {
+    background-color: currentColor;
+    border-radius: 1px;
+    transform-origin: 21px;
+
+    display: block;
+    height: 3px;
+    width: 22px;
+    transition: transform .2s;
+}
+
+.btn-hamburger__bar:nth-child(2) {
+    margin-top: 0.4rem;
+}
+
+.btn-hamburger__bar:nth-child(3) {
+    margin-top: 0.4rem;
+}
+
+/* Animação - Botão Hamburger */
+
+.header__btn-hamburger.menu-open .btn-hamburger__bar:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+.header__btn-hamburger.menu-open .btn-hamburger__bar:nth-child(2) {
+    opacity: 0;
+}
+
+.header__btn-hamburger.menu-open .btn-hamburger__bar:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+/* Menu mobile */
+
+.header__nav--mobile {
+    transform: translateX(100rem);
+    padding: 3.8rem;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 447px;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: var(--white);
+    transition: transform .5s;
+}
+
+.overlay-mobile {
+    transition: .2s;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 850px) {
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__menu--user {
+        display: none;
+    }
+
+    .header__btn-hamburger {
+        display: block;
+    }
+
+    .header__nav--mobile.menu-open {
+        transform: translateX(0rem);
+        transition: transform .5s;
+    }
+
+    #overlay.overlay-mobile.menu-open {
+        left: 0;
+        background: var(--overlay-mobile);
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+    }
+
+}
