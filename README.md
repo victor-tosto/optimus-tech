@@ -42,7 +42,9 @@
 - [X] Dia 6: Criar a seção "depoimentos" do site
 - [X] Dia 7: Criar o rodapé do site
 
+## 📁 Acesso ao projeto
 
+<p>Para visualizar a versão atual do projeto é só<a href="https://optimus-tech-neon.vercel.app/"> "Clicar aqui".</a>🚀</p>
 
 ## 👨‍💻 Autor
 
