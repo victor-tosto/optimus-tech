@@ -43,3 +43,18 @@
     color: var(--gray-500);
     margin-bottom: 2.4rem;
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 850px) {
+    .metrics__container {
+        flex-direction: column;
+    }
+
+    .container__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

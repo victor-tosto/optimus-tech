@@ -8,11 +8,12 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-objetivos-pessoais">Objetivos Pessoais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-etapas-do-projeto">Etapas do Projeto</a>
+  <a href="#-etapas-do-projeto">Etapas do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-acesso-ao-projeto">Acesso ao Projeto</a>
 </p>
 
 <p align="center">
-  <img alt="Status Em Desenvolvimento" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
+  <img alt="Status Concluído" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge">
 </p>
 
 <br>
@@ -22,13 +23,14 @@
 
 <li>HTML</li>
 <li>CSS</li>
+<li>JavaScript</li>
 <li>Figma</li>
 
 ## 📈 Objetivos Pessoais
 
-<li>Implementar responsividade</li>
-<li>Criação de menu hamburguer para telas menores</li>
-<li>Utilização do Block Element Modifier (BEM) no nome das classes</li>
+- [X] Implementar responsividade
+- [X] Criação de menu hamburguer para telas menores
+- [X] Utilização do Block Element Modifier (BEM) no nome das classes
 
 ## 📝 Etapas do Projeto
 
@@ -39,6 +41,8 @@
 - [X] Dia 5: Criar o restante da seção "vagas" do site
 - [X] Dia 6: Criar a seção "depoimentos" do site
 - [X] Dia 7: Criar o rodapé do site
+
+
 
 ## 👨‍💻 Autor
 

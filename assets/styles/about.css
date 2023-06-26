@@ -34,3 +34,22 @@
     color: var(--gray-500);
     max-width: 790px;
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 680px) {
+
+    .about {
+        padding: 9.6rem 3.2rem;
+    }
+    
+    .about__title {
+        font-size: 3.6rem;
+        line-height: 4.4rem;
+    }
+
+    .about__text {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}

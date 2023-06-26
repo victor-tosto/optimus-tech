@@ -12,6 +12,7 @@
 
     --white: #FFFFFF;
     --brown-red: #8E2424;
+    --light-red: #7e1b1b;
     --gray-50: #F9FAFB;
     --gray-200: #EAECF0;
     --gray-300: #D0D5DD;
@@ -36,6 +37,8 @@ html, body {
     height: 100%;
     font-family: var(--primary-font);
 }
+
+/* Responsivo */
 
 .suppress-scroll {
     overflow: hidden;

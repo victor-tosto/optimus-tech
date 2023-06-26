@@ -53,6 +53,7 @@
     outline: none;
     position: relative;
     width: 60%;
+    font-family: var(--primary-font);
 }
 
 .email__input::placeholder {
@@ -63,6 +64,15 @@
     top: 27.5%;
 }
 
+.email__input:hover {
+    border: 1px solid var(--gray-500);
+    transition: .2s;
+}
+
+.email__input:focus-within {
+    border: 1px solid var(--gray-900);
+}
+
 .email__button {
     background-color: var(--brown-red);
     border: none;
@@ -71,10 +81,17 @@
     padding: 1.2rem 2rem;
     cursor: pointer;
     outline: none;
+    font-family: var(--primary-font);
 
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--white);
+}
+
+.email__button:hover {
+    color: var(--white);
+    background-color: var(--light-red);
+    transition: .2s;
 }
 
 .footer__copyright {
@@ -82,4 +99,14 @@
     font-weight: 400;
     line-height: 2.4rem;
     color: var(--gray-400);
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 680px) {
+    
+    .description__text {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
 }
