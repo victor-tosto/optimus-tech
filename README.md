@@ -2,7 +2,7 @@
 
 <p align="center">
   Projeto de um site de vagas fictício utilizando HTML e CSS, proposto pela Dev Giovanna Moeller no <a href="https://7daysofcode.io/">7 Days of Code</a>
-  da Alura. Onde durante 7 dias recebemos um e-mail com informações do que deve ser feito naquele dia dentro do projeto.
+  da Alura. Onde durante 7 dias recebemos um e-mail com informações do que devia ser feito naquele dia dentro do projeto.
 </p>
 
 <p align="center">
